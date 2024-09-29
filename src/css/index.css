@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main p {
+    max-width: 700px;
+    text-align: justify;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+@media(max-width: 481px){
+    main p {
+        width: 320px;
+    }
+    
+}
+
+.Video{
+    max-width: 500px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Video iframe{
+    width: 500px;
+    height: 30vh;
+}
+
+@media (max-width:520px) {
+    .Video iframe{
+        width: 80vw;
+    }
+}
+
+.video span{
+    width: 60%;
+}
